@@ -1,0 +1,123 @@
+<!-- HTML tags:
+the opening tag =
+    start with a <
+    whatever is inside is the "tag"
+    close with a >
+<html>
+the closing tag = 
+    start with <
+    add /
+    wahtever is inside is teh "tag"
+    close with a >
+</html> -->
+
+<!-- DOCTYPE = this tells the browser what this thing is -->
+<!DOCTYPE html>
+<!-- html tag is the overall tag that starts html. EVERYTHING
+in your html file, should be inside the html -->
+<html>
+<!-- Head tag is where stuff goes that the user is not supposed to see. -->
+<!-- stlye tags, JS files, meta tags, title of the page -->
+<!-- The page needs the head stuff, for the body -->
+<head>
+    <!-- meta tags give information about your page to someone -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- How the search engines will list your Page
+    what will be on the tab at the top of the browser -->
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link tags - link to a css file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- script tag links to a js file -->
+    <script src="main.js"></script>
+</head>
+<!-- the body is where the stuff that the user is supposed to see goes -->
+<!-- if the word is solid blue, its a tag -->
+<!-- if the word is light blue it's an attribute -->
+<!-- if the word is orange it's a string -->
+<!-- if the word is white... it's going to show up on the page
+if it's green its a comment -->
+<body id="body" class="my-class" my-favorite-team="Atl-United">
+    This is the body! 
+
+    <!-- div = divider, a structural tag -->
+    <!-- strucutral meaning, it does nothing but help you 
+        organization your html -->
+    <div>
+        <h1>Registration</h1>
+    </div>
+    <span>I'm also a structural tag</span>
+    <p>A p tag us a paragragh tag, and is structural</p>
+
+    ul/ol, ul = unorderd list, ol = ordered list
+    inside of ul/ol are li = list item
+    <ol>
+        <li>Get oil changed</li>
+        <li>Clean house</li>
+        <li>Pay bills</li>
+    </ol>
+    <ul>
+        <li>United States</li>
+        <li>Mexico</li>
+        <li>Canada</li>
+        <li>Panama</li>
+        <li>Costa Rica</li>
+    </ul>
+    <span>Span 1</span>
+    <!-- br tag breaks a "break" in the html -->
+    <br />
+    <span>Span 2</span>
+
+    <!-- <center>I'm in the center, but dont use me!</center> -->
+
+    <!-- Aestheic tags -->
+    <!-- change the way the content looks -->
+    <div>
+        <strong>I am a strong tag!!</strong>
+    </div>
+    <hr />
+    <em>I am an emphasize tag</em>
+    <div>
+        Super: <sup>Superscript tag</sup>
+        <!-- <a href="">google</a> -->
+    </div>
+    <div>
+        Subsc<sub>Subscript tag</sub>
+    </div>
+    <!-- <strike>Im crossed out</strike> -->
+
+    <!-- Semantic tags - unlike a structural tag, it tells oyu what
+    is inside of  -->
+    <nav></nav>
+    <footer></footer>
+
+    <!-- h1 - h6 = a header tag -->
+    <h1>This is an h1 tag!</h1>
+    <h2>This is an h1 tag!</h2>
+    <h3>This is an h1 tag!</h3>
+    <h4>This is an h1 tag!</h4>
+    <h5>This is an h1 tag!</h5>
+    <h6>This is an h1 tag!</h6>
+
+    <!-- a = anchor tag! anchor tag goes somewhere else -->
+    <a href="https://google.com">A Link Google</a>
+    <a href="mail:rob@digitalcrafts.com">Email Rob</a>
+    <a href="tel:18888675309">Call Jenny!</a>
+
+    <img alt="a picture of chuck norris. Goodbye" src="https://i.ytimg.com/vi/5Tmvb7jJVm0/maxresdefault.jpg" />
+
+    <form action="" method="">
+        <input type="text" placeholder="Type your name"/>
+        <input type="text" placeholder="Format: (555)555-5555"/>
+        <input type="number" placeholder="Numbers Only"/>
+        <input type="date" />
+        <input type="password" />
+        <input type="email" />
+        <input type="submit" value="submit form!" />
+    </form>
+
+
+    <br /><br /><br /><br /><br />
+</body>
+</html>
